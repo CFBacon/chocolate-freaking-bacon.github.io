@@ -1,0 +1,85 @@
+body {
+    font-family: 'Black Ops One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center all text horizontally */
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+
+header {
+    background: #ffffff;
+    color: #b40e9b;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em; /* Increase the font size */
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    flex: 1; /* Allow the main content to grow and take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center;
+}
+
+main p {
+    font-size: 1.5em; /* Increase the font size of the text in the main section */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    width: 100%; /* Ensure the container takes up the full width */
+    max-width: 600px; /* Optional: limit the maximum width of the container */
+}
+
+.btn {
+    padding: 40px 80px; /* Further increase the padding to make the buttons larger */
+    margin: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 3em; /* Further increase the font size */
+    border-radius: 10px; /* Round the edges of the buttons */
+    transition: transform 0.3s, background-color 0.3s; /* Add transition for smooth effect */
+}
+
+.btn:hover {
+    background-color: #cb1f75; /* Change background color to pink on hover */
+    transform: scale(1.1); /* Make the button bigger on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ffffff;
+    color: #a50cab;
+    width: 100%;
+}
